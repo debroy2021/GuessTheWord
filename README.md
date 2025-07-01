@@ -13,6 +13,5 @@ I also used the [pyFiglet](https://pypi.org/project/pyfiglet/) library to proodu
 A big challenge I faced was creating an algorithm for replacing the correct word with underscores except for letters that the user had guessed correctly and also have correctly guess letters carry over from previous guesses. I ended up creating a list that would contain all the unqiue letters in the guess which would be added to every time the user made a new guess. Then, it was a simple matter of replacing all letters aside from those with underscores.
 
 ### How to Run:
-Simply navigate to the project folder in your terminal and type
-
-    python project.py
+First run `pip install -r requirements.txt`
+Then, simply navigate to the project folder in your terminal and type `python project.py`
