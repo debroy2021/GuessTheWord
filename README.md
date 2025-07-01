@@ -14,4 +14,5 @@ A big challenge I faced was creating an algorithm for replacing the correct word
 
 ### How to Run:
 First run `pip install -r requirements.txt`
+
 Then, simply navigate to the project folder in your terminal and type `python project.py`
